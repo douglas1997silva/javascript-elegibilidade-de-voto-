@@ -1,7 +1,7 @@
 const aviso = document.getElementById('aviso');
 const btn = document.getElementById('btn');
 
-function main (){
+(function main (){
     btn.addEventListener('click',()=>{
         const id = document.getElementById('idade');
        let idade = parseInt(id.value);
@@ -31,7 +31,7 @@ function main (){
         aviso.innerHTML = "Adicione uma idade Verdadeira!"
     }
     })
-}
-main()
+})()
+
 
 
